@@ -13,7 +13,7 @@ export const Login = (props)=>{
 
 
       <div className = "signup-form">
-        <h3>WELCOME TO SHARE-KAROOOOO</h3>
+        <h3>WELCOME TO SPLIT-KAROOOOO</h3>
         <label htmlFor="">Email address</label>
         <input id = "email" onChange = {props.input} className = "form-control" type="text"/>
 

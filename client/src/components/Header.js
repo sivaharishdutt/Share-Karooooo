@@ -6,10 +6,14 @@ import '../styles/landing.css'
  const Header = (props)=>{
     {console.log(props.user)}
     return (
+        
         <nav className = "landingNav fixed-top">
-        <NavLink to = "/"><h3 className = "landing-name">S H A R E - K A R O O O O O</h3></NavLink> 
-     
-     <div className = "float">
+        <div className="logo">
+        <img align="left" className = "landing-logo" src={require('../images/black1.png')} alt=""/>
+        <NavLink to = "/"><h3 className = "landing-name">S P L I T - K A R O O O O O</h3></NavLink> 
+        <img align="left" className = "landing-logo" src={require('../images/shareKaro.png')} alt=""/>
+        </div>
+    <div className = "float">
      <NavLink to = "/login"><button className = "loginBtn">Log In</button></NavLink>
         <label htmlFor="">or</label>
         <NavLink to = "/signup"><button className = "SignUp">Sign Up</button></NavLink>

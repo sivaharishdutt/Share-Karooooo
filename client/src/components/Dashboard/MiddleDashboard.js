@@ -50,15 +50,15 @@ if(element.data){
         <div className="total">
           <div className="fitting">
             <label htmlFor="">total balance</label>
-            <p className="green">$ {exp}</p>
+            <p className="green">Rs. {exp}</p>
           </div>
           <div className="fitting">
             <label htmlFor="">you owe</label>
-            <p style = {{color:"red"}}>$ {(exp<0)?exp:0}</p>
+            <p style = {{color:"red"}}>Rs. {(exp<0)?exp:0}</p>
           </div>
           <div className="fitting">
             <label htmlFor="">you are owed</label>
-            <p className="green">$ {(exp>0)?exp:0}</p>
+            <p className="green">Rs. {(exp>0)?exp:0}</p>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ if(element.data){
              />
              <div className="inline">
                <h5>{value.name}</h5>
-               <span>you owe ${-(value.data.ammount)}</span>
+               <span>you owe Rs.{-(value.data.ammount)}</span>
              </div>
            </li>
             )}
@@ -117,7 +117,7 @@ if(element.data){
             />
             <div className="inline">
               <h5>{value.name}</h5>
-              <span>owes you ${value.data.ammount}</span>
+              <span>owes you Rs.{value.data.ammount}</span>
             </div>
           </li>
             )}

@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
 }
 .landingNav{
-  height: 55px;
+  height: 60px;
   width: 100%;
   background:#0f0000;
   color: white;
@@ -116,14 +116,17 @@
 }
  
 .landing-button{
+  
+  
   float: right;
   padding: 10px;
   color: white;
   background: #8bff06;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-right: 130px;
+  margin-top: 25px;
   font-size: 20px;
-  cursor: pointer;
+  
 }
 .landing-button:focus{
    

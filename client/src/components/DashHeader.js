@@ -7,7 +7,9 @@ import '../styles/dashHeader.css'
     
     return (
         <nav className = "DashboardNav fixed-top">
-        <NavLink to = "/Dashboard"><h3 className = "landing-name">S H A R E - K A R O O O O</h3></NavLink> 
+        <img align="left" className = "landing-logo" src={require('../images/black1.png')} alt=""/>
+        <NavLink to = "/Dashboard"><h3 className = "landing-name">S P L I T - K A R O O O O O</h3></NavLink> 
+        <img align="center" className = "landing-logo" src={require('../images/shareKaro.png')} alt=""/>
      
      <div className = "Dashfloat">
      <NavLink to = "/login"><button className = "logoutbtn" onClick = {()=>{
