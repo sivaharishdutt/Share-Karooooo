@@ -1,5 +1,5 @@
-# Splitwise-Clone
-Splitwise is a bill spliting application, Here I have made a clone by using MERN stack
+# Share-Karo
+Share karo is expense sharing application, Here I made a clone by using MERN stack
 
 ## How to use
 
